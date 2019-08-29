@@ -1,0 +1,102 @@
+body{
+    font: 14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+    color: #333;
+    background-color:#f5f5f5;
+}
+div{
+    display: block;
+}
+a {
+    display: block;
+    color: #757575;
+    text-decoration: none;
+}
+p {
+    display: block;
+    text-align: center;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.S{
+    position: relative;
+    z-index: 1;
+    float: left;
+    width: 234px;
+    height: 246px;
+    padding: 34px 0 20px;
+    margin-left: 14px;
+    margin-bottom: 14px;
+    background: #fff;
+    transition: all .7s ;
+}
+.S .sh{
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 18px;
+}
+.S .p1{
+    color: #333;
+    margin: 0 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.S .p2{
+    margin: 0 10px 10px;
+    height: 18px;
+    font-size: 12px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #b0b0b0;
+}
+.S .p3{
+    margin: 0 10px 10px;
+    color: #ff6700;
+}
+.S .p4{
+    margin: 0 10px;
+    font-size: 12px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #b0b0b0;
+}
+.S .pj{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 3;
+    width: 234px;  
+    height: 0;
+    opacity: 0;
+    font-size: 12px;
+    background-color: #ff6700;
+    transition: all .7s;
+}
+.S .pj a{
+    padding: 8px 30px;
+    outline: 0;
+    transition: all .7s;
+}
+.S .s1{
+    margin-bottom: 5px;
+    color: #fff;
+    display: block;
+}
+.S .s2{
+    color: rgba(255,255,255,0.6);
+    display: block;
+}
+.S .s3{
+    margin-left: 6px;
+}
+.S:hover{
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.1);
+    margin-top: -3px;
+}
+.S:hover .pj {
+    bottom: 0;
+    left: 0;
+    height: 76px;
+    opacity: 1;
+}
